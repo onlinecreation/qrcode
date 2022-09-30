@@ -49,5 +49,5 @@ const RendererRandRect = createRenderer({
 export default RendererRandRect
 
 RendererRandRect.detail = (
-    <div>有一点点骚的配色，很适合你</div>
+    <div>There is a little bit of slutty color scheme, very suitable for you</div>
 );
