@@ -72,47 +72,47 @@ function getParamInfo() {
     return [
         {
             type: ParamTypes.UPLOAD_BUTTON,
-            key: '背景图片',
+            key: 'Images de fond',
             default: defaultResImage,
         },
         {
             type: ParamTypes.TEXT_EDITOR,
-            key: '对比度',
+            key: 'Contraste',
             default: 0
         },
         {
             type: ParamTypes.TEXT_EDITOR,
-            key: '曝光',
+            key: 'Exposition',
             default: 0
         },
         {
             type: ParamTypes.SELECTOR,
-            key: '小定位点样式',
+            key: 'Style des points de positionnement',
             default: 0,
             choices: [
-                "无",
-                "白",
-                "黑白",
+                "Aucun",
+                "Blanc",
+                "Noir et blanc",
             ]
         },
         {
             type: ParamTypes.SELECTOR,
-            key: '时钟样式',
+            key: 'Styles du cadre',
             default: 0,
             choices: [
-                "无",
-                "白",
-                "黑白",
+                "Aucun",
+                "Blanc",
+                "Noir et blanc",
             ]
         },
         {
             type: ParamTypes.COLOR_EDITOR,
-            key: '信息点颜色',
+            key: 'Couleurs des points d\'information',
             default: '#000000'
         },
         {
             type: ParamTypes.COLOR_EDITOR,
-            key: '定位点颜色',
+            key: 'Couleurs des points de positionnement',
             default: '#000000'
         },
     ];
@@ -324,5 +324,5 @@ export default RendererResImage
 
 
 RendererResImage.detail = (
-    <div>满满科技感的重采样二值化像素点阵，有点东西</div>
+    <div>Full of technology resampled binarized pixel dot matrix, something</div>
 );

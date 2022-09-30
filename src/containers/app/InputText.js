@@ -17,7 +17,7 @@ const InputText = ({dispatch}) => {
                         className="Qr-upload"
                         style={{textAlign: "center"}}
                     >
-                        <svg className="Qr-upload-svg" version="1.1" id="图层_1" zoomAndPan="disable"
+                        <svg className="Qr-upload-svg" version="1.1" id="Calque_1" zoomAndPan="disable"
                              xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                              viewBox="0 -5 30 40" preserveAspectRatio="none">
                             <g className="st0">
@@ -51,7 +51,7 @@ const InputText = ({dispatch}) => {
                     />
                     <input
                         className="Qr-input big-input"
-                        placeholder="https://qrbtf.com"
+                        placeholder="https://qrcode.onlinecreation.pro"
                         ref={textRef}
                         onBlur={(e) => {
                             handleInputUrl();
@@ -67,7 +67,7 @@ const InputText = ({dispatch}) => {
                     />
                 </div>
                 <div className="Qr-input-hint">
-                    上传普通二维码或输入网址
+                    Téléchargez un code QR normal ou saisissez une URL.
                 </div>
             </div>
         </React.Fragment>);

@@ -1,27 +1,20 @@
 <h1 align="center"><img alt="QRBTF" src=".github/qrbtf-logo.svg" height="75"></h1>
 
 <p align="center">
-    URL: <a href="https://qrbtf.com" rel="noopener noreferrer" target="_blank">qrbtf.com</a><br />
-    QRBTF is a simple web app to beautify your QR code.
+    URL: <a href="https://qrcode.onlinecreation.pro" rel="noopener noreferrer" target="_blank">qrcode.onlinecreation.pro</a><br />
+    QRBTF est une application web simple pour embellir votre code QR.
 </p>
 
 <p align="center">
     <img src="public/img/QRcodes.jpg">
 </p>
 
-## Features
+## Caractéristiques
 
-* Various Art QR Code Styles
-* Parametric Design
-* No Backend Required
-* Support for SVG Downloads
-
-中文介绍: 
-
-* [如何制作一个漂亮的二维码](https://mp.weixin.qq.com/s/_Oy9I9FqPXhfwN9IUhf6_g)
-* [QRBTF 开源啦！来写个二维码样式吧～](https://mp.weixin.qq.com/s/GFEMCWQu3e2qhTuBabnHmQ)
-
-## QRBTF Website
+* Divers styles de codes QR graphiques
+* Conception paramétrée
+* Aucun traitement serveur requis
+* Prend en charge les téléchargements SVG
 
 ### Installation
 
@@ -32,23 +25,23 @@ npm install
 npm start
 ```
 
-### Usage
+### Utilisation
 
-1. Open [qrbtf.com](https://qrbtf.com).
-2. Enter a URL or text.
-3. Select a style.
-4. Adjust parameters.
-5. Download `JPG` or `SVG`.
+1. Ouvrez [qrcode.onlinecreation.pro] (https://qrcode.onlinecreation.pro).
+2. Saisissez une URL ou un texte.
+3. Sélectionnez un style.
+4. Ajustez les paramètres.
+5. Téléchargez votre QRcode au format `JPG` ou `SVG`.
 
 ## React Component (react-qrbtf)
 
-See [CPunisher / react-qrbtf](https://github.com/cpunisher/react-qrbtf) for more information.
+Voir [CPunisher / react-qrbtf](https://github.com/cpunisher/react-qrbtf) pour plus d'informations.
 
 ``` bash
 npm install react-qrbtf --save
 ```
 
-### Include the Component
+### Inclure le composant
 
 ```js
 import React from 'react'
@@ -74,30 +67,21 @@ class Component extends React.Component {
 }
 ```
 
-## Third-Party Project
-
-* [gexin1 / beautify-qrcode](https://github.com/gexin1/beautify-qrcode)
-
-## Author
+## Auteur
 
 * [ciaochaos](https://github.com/ciaochaos)
 * [CPunisher](https://github.com/CPunisher)
+* Traduit de l'anglais et du chinois par [OnlineCreation](https://www.onlinecreation.pro)
 
 ## Donation
 
-#### Paypal
+Voir [le dépot père](https://github.com/ciaochaos/qrbtf)
 
-[![](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.me/ciaochaos)
-
-#### Alipay
-
-<img align="center" src="https://blog.ciaochaos.com/projects/qrcode/alipay2.jpeg" width="250">
-
-## Dependency
+## Dépendance
 
 * [davidshimjs / qrcode](https://github.com/davidshimjs/qrcodejs)
 * [cozmo / jsQR](https://github.com/cozmo/jsQR)
 
-## License
+## Licence
 
 [GPLv3](LICENSE)

@@ -87,7 +87,7 @@ const PartMore = () => {
                         <p>我们是两位大一的学生，忙于学业，可能在设计与开发的过程中有一些疏漏，敬请谅解。如果遇到浏览器兼容问题，请暂时选择更换软件或设备尝试。</p>
                         <p>编写二维码样式是一个锻炼设计与开发（JavaScript）能力的绝佳机会，如果你有兴趣和我们一起玩这个项目，欢迎添加我的微信（微信号：<span
                             style={{userSelect: "text"}}>nhciao</span>，请备注真实姓名）或发送邮件至 <LinkTrace
-                            href='mailto:contact@qrbtf.com'>contact@qrbtf.com</LinkTrace> 联系我们！</p>
+                            href='mailto:contact@qrcode.onlinecreation.pro'>contact@qrcode.onlinecreation.pro</LinkTrace> 联系我们！</p>
 
                     </div>
                 </div>
